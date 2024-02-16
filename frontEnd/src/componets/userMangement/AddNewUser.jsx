@@ -22,6 +22,7 @@ function AddNewUser() {
                     <input type="radio" id="javascript" name="fav_language" value="JavaScript"/>
                     <label for="javascript">Admin</label>
                 </p>
+                <button> create user</button>
 
             </form>
         </div>
