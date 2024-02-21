@@ -3,8 +3,8 @@ import Login from "../login/Login";
 
 function UserManagement() {
     return(
-        <div>
-            <div>
+        <div className=" lg:w-1/4">
+            <div className="flex justify-between  border-2">
                 <button>log in</button>
                 <button>create account</button>
             </div>
