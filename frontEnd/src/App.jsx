@@ -5,6 +5,7 @@ import './App.css'
 import UserManagement from './componets/userManagement/userManagement'
 import MenuBar from './componets/header/menuBar'
 import Menu from './componets/menu/menu'
+import ProductWindow from './componets/productWindow/productWindow'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -34,7 +35,7 @@ function App() {
       <MenuBar></MenuBar>
       <div className='flex flex-col lg:flex-row'>
         <Menu></Menu>
-        <UserManagement></UserManagement>
+        <ProductWindow></ProductWindow>
       </div>
       
 
