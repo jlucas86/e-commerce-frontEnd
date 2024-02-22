@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UserManagement from './componets/userManagement/userManagement'
 import MenuBar from './componets/header/menuBar'
+import Menu from './componets/menu/menu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +32,12 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <MenuBar></MenuBar>
-      <UserManagement></UserManagement>
+      <div className='flex flex-col lg:flex-row'>
+        <Menu></Menu>
+        <UserManagement></UserManagement>
+      </div>
+      
+
     </>
   )
 }
